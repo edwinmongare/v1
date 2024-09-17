@@ -7,10 +7,14 @@ const nextConfig = {
         hostname: "localhost",
       },
       {
-        protocol: "https",
-        hostname: "https://final-pacesetter-1d5a034.payloadcms.app",
+        protocol: "http",
+        hostname: "stateoforigin.oyostate.gov.ng",
       },
     ],
+  },
+  swcMinify: false, // Disable SWC minification
+  experimental: {
+    swcLoader: false, // Disable SWC loader
   },
   pageExtensions: ["ts", "tsx"],
 };
