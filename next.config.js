@@ -12,10 +12,6 @@ const nextConfig = {
       },
     ],
   },
-  swcMinify: false, // Disable SWC minification
-  experimental: {
-    swcLoader: false, // Disable SWC loader
-  },
   pageExtensions: ["ts", "tsx"],
 };
 
