@@ -53,7 +53,7 @@
     "body-parser": "^1.20.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "cmdk": "^1.0.0",
+    "cmdk": "0.2.1",
     "cookie-parser": "^1.4.6",
     "cross-env": "^7.0.3",
     "date-fns": "^3.6.0",
@@ -66,7 +66,7 @@
     "framer-motion": "^11.5.4",
     "lexical": "^0.17.1",
     "lucide-react": "^0.441.0",
-    "next": "14.2",
+    "next": "^14.2.13",
     "next-themes": "^0.3.0",
     "nextjs-themes": "^4.0.3",
     "nodemailer": "^6.9.15",
@@ -90,6 +90,9 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@eslint/config-array": "^0.18.0",
+    "@eslint/object-schema": "^2.1.4",
+    "@swc-node/register": "^1.10.9",
     "@types/cookie-parser": "^1.4.7",
     "@types/express": "^4.17.21",
     "@types/express-session": "^1.18.0",
@@ -103,12 +106,9 @@
     "copyfiles": "^2.4.1",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.11",
+    "jsdom": "^25.0.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.11",
-    "typescript": "^5.2.0",
-    "@eslint/object-schema": "^2.1.4",
-    "@eslint/config-array": "^0.18.0",
-    "@swc-node/register": "^1.10.9",
-    "jsdom": "^25.0.0"
+    "typescript": "^5.2.0"
   }
 }
